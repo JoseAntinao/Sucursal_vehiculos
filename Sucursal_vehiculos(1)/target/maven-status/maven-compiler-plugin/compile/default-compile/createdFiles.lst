@@ -1,0 +1,9 @@
+com\vehiculos\VehiculosRest\models\VehiculoModel.class
+com\vehiculos\VehiculosRest\ServletInitializer.class
+com\vehiculos\VehiculosRest\VehiculosRestApplication.class
+com\vehiculos\VehiculosRest\services\VehiculoService$UserNotFoundException.class
+com\vehiculos\VehiculosRest\services\VehiculoService.class
+Swagger\SwaggerConfigurations.class
+com\vehiculos\VehiculosRest\controllers\VehiculoController.class
+com\vehiculos\VehiculosRest\controllers\InicioController.class
+com\vehiculos\VehiculosRest\repositories\IVehiculoRepository.class
