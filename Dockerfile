@@ -1,10 +1,10 @@
-# Usamos una base ligera de Java 17 
-FROM openjdk:17-jdk-slim
+# Usamos una imagen de Java 17 
+FROM eclipse-temurin:17-jdk-jammy
 
-# Exponemos el puerto 9090 que configuramos en el properties
+# Exponemos el puerto de la app
 EXPOSE 9090
 
 COPY target/*.war app.war
 
-# Comando para arrancar la aplicación
+# Comando de arranque
 ENTRYPOINT ["java", "-jar", "/app.war"]
